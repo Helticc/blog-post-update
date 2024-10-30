@@ -51,7 +51,6 @@ const Page = () => {
     }
   };
   
-
   useEffect(() => {
     fetchData();
   }, [page]);
